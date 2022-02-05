@@ -39,7 +39,7 @@ youtube_dl.utils.bug_reports_message = lambda: ''
 
 intents = discord.Intents.all()
 prefix = "qs!"
-Bot = commands.Bot(command_prefix = prefix, intents = discord.Intents.all())
+Bot = commands.Bot(command_prefix = '+0', intents = discord.Intents.all())
 Bot.remove_command('help')
 
 delta = datetime.timedelta(hours = 3, minutes = 0)
@@ -548,4 +548,4 @@ async def servers(ctx):
        
 
 
-Bot.run(str(token))
+Bot.run("OTI0OTg4Nzc0NTkxNjU1OTU3.Ycmk7Q.I3inE_vFmMKcyQAypL_ijiBxkmM")
